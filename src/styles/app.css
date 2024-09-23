@@ -1,0 +1,25 @@
+/**/
+#courselsit {
+    display: flex;
+    flex-flow: column nowrap; /*combination of flex-direction and flex-wrap properties respectively*/
+    background-color: burlywood;
+    
+}
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    background-color:rgb(89, 42, 165);
+    padding:10px;
+    margin: 10px;
+    width: 700px;
+}
+.item > div {
+    margin:5px;
+    border:2px solid rgb(76, 70, 70);
+    padding: 5px;
+    color: white;
+}
+.selected-item {
+    font-weight: bold;
+    border: 2px solid black;
+}
